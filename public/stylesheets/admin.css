@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+body {
+	background:#fff;
+	margin:0;
+	padding:0;
+	font:9pt 宋体;
+	font-size: 9pt;
+	text-decoration: none;
+	SCROLLBAR-FACE-COLOR: #C6EBDE;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR:#39867B;
+	SCROLLBAR-3DLIGHT-COLOR:#39867B;
+	SCROLLBAR-ARROW-COLOR: #330000;
+	SCROLLBAR-TRACK-COLOR: #E2F3F1;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+}
+table {
+	border:1px;
+}
+td {
+	font:normal 12px 宋体;
+}
+img {
+	vertical-align:bottom;
+	border:0px;
+}
+a {
+	font:normal 12px 宋体;
+	color:#044a7d;
+	text-decoration:none;
+	cursor:pointer;
+        margin-right: 5px
+}
+a:hover {
+	color:#044a7d;
+	text-decoration:underline;
+	cursor:pointer
+}
+.sec_menu {
+	background:url(/images/admin/admin_l_bg.gif) repeat-y;
+	overflow:hidden
+}
+.menu_title {
+	background:url(/images/admin/admin_l_tit.gif) no-repeat
+}
+.menu_title span {
+	position:relative;
+	top:0px;
+	left:8px;
+	color:#044a7d;
+	font-weight:bold;
+	padding-left:36px
+}
+.menu_title2 {
+	background:url(/images/admin/admin_l_tit.gif) no-repeat
+}
+.menu_title2 span {
+	position:relative;
+	top:0px;
+	left:8px;
+	color:#044a7d;
+	font-weight:bold;
+	padding-left:36px
+
+}
+
+                        
+
+/*top */
+.top{ background:url(/images/admin/admin_top_bg.gif) repeat-x; height:61px; min-width:980px; width:100%}
+.top-img{ background:url(/images/admin/top_tit.jpg) no-repeat left 0; float:left; height:61px; width:100%}
+.user{ background:url(/images/admin/top_icon.gif) no-repeat; color:#fff; font-size:12px; float:right;  white-space: nowrap; margin:42px 15px 0 0; padding-left:18px}
+.name{ color:#BCF0FE; margin:0 4px}
+.logout{margin-left:8px; cursor:pointer}
+.logout input{  background-color:#fff; border:0;cursor:pointer;}
+.logout a{ color:#FFF}
+
+
+
+.btn{ background:url(/images/admin/btn.png) no-repeat; display:block; border:0 none; cursor:pointer; margin-left:10px; height:25px}
+.btn-add{ background-position:0 -250px; margin:5px 0 5px 5px; width:107px}
+.btn-preview{ background-position:0 -25px; margin:5px 15px 5px 0; width:64px}
+.btn-confirm{ background-position:0 -175px;  margin:5px 0; width:64px}
+.btn-search{ background-position:0 -125px;  margin:5px 0 5px 5px; width:64px}/*搜索*/
+.btn-upline{ background-position:0 -350px;  margin:5px 0; width:81px}/*上线*/
+.btn-tijiao{ background-position:0 -100px;  margin:5px 0; width:64px}/*提交*/
+.btn-quxiao{ background-position:0 -150px;  margin:5px 0; width:64px}/*取消*/
+
+.sel{padding:0 16px; overflow:hidden;}
+.sel a{ border:1px solid #ACADB2; background-color:#FFF; display:inline-block; cursor:pointer;  padding:0 20px 0 5px; height:19px; line-height:19px; margin:8px 10px 0 0; overflow:hidden; position:relative; zoom:1}
+.sel a:hover{ text-decoration:none}
+.sel b{ background:url(/images/sel_x.gif) no-repeat; height:13px; right:2px; top:3px; width:13px; position:absolute}
+.sel-sr{ background:url(/images/icon_btn.png) no-repeat -378px -207px; display:block; height:27px; text-indent:-999px; margin:5px 0 0 0; overflow:hidden; width:80px}
+
+
+/*admin_login */
+.login-bg{ background-color:#3987CF}
+.login-wrapper{ background:url(/images/admin/login.png) no-repeat; padding:40px 0 0 368px; width:243px; height:234px; margin:150px auto}
+.login-wrapper input{ border:1px solid #666; width:140px; height:19px; line-height:19px}
+.admin-us , .admin-pw{ margin-bottom:12px}
+.admin-error{ border:1px solid #F00; background-color:#ffcaca;  margin-bottom:12px; padding:2px; overflow:hidden; line-height:20px; width:190px}
+.admin-btn{ padding-left:55px}
+.admin-btn button{ border:0 none; background:url(/images/admin/admin_btn_icon.png) no-repeat 0 0; cursor:pointer; display:block;  text-indent:-9999px; height:27px; width:68px; overflow:hidden}
+
+
+/*index */
+.admin-head{ height:61px; width:100%}
+.admin-main-box{ height:100%; width:100%}
+.admin-left{ background:url(/images/admin/admin_m_bg.gif) repeat-y; float:left; width:183px; height:100%}
+.admin-main{width:100%; height:100%}

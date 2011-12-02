@@ -1,0 +1,73 @@
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr >
+  <td valign=top><table cellpadding=0 cellspacing=0 width=183 align=center>
+      <tr>
+        <td height=30 class=menu_title onmouseover=this.className='menu_title2'; onmouseout=this.className='menu_title'; background="/images/admin/admin_l_tit.gif" id=menuTitle1 onClick="showsubmenu(1)" style="cursor:hand;"><span>用户管理</span></td>
+      </tr>
+      <tr class="sec_menu">
+        <td style="display:block" id='submenu1'><div style="width:180px">
+            <table cellpadding=0 cellspacing=0 align=center>
+              <tr>
+                <td width="20" height=30 align="center" valign="middle"><a href="#"  ><img alt=""  src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td width="116" align="left" valign="middle"><a href="<%#=admin_users_path%>"  >添加新的用户</a></td>
+              </tr>
+              <tr>
+                <td height=30 align="center" valign="middle"><a href="#"><img alt=""  src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td align="left" valign="middle"><a href="<%#=admin_loans_path%>">用户信息管理</a></td>
+              </tr>
+            </table>
+        </div></td>
+      </tr>
+    </table>
+    
+    <table cellpadding=0 cellspacing=0 width=183 align=center>
+      <tr>
+        <td width="181" height=30  class=menu_title id=menuTitle1 style="cursor:hand;" onClick="showsubmenu(6)" onmouseover=this.className='menu_title2'; onmouseout=this.className='menu_title';><span>网站导航</span></td>
+      </tr>
+      <tr>
+        <td class="sec_menu" id='submenu6' style="display:block"><div class=sec_menu style="width:180px">
+            <table cellpadding=0 cellspacing=0 align=center width=0>
+              <tr>
+                <td width="20" height=30 align="center" valign="middle"><a href="#"><img src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td width="116" align="left"
+                valign="middle"><%= link_to "导航列表",admin_categories_path%></td>
+              </tr>
+              <tr>
+                <td width="20" height=30 align="center" valign="middle"><a href="#"><img src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td width="116" align="left"
+                valign="middle"><%= link_to "创建导航",new_admin_category_path%></td>
+              </tr>
+             
+            </table>
+          </div></td>
+      </tr>
+    </table>
+    <table cellpadding=0 cellspacing=0 width=183 align=center>
+      <tr>
+        <td height=30 class=menu_title onmouseover=this.className='menu_title2';
+            onmouseout=this.className='menu_title'; background="/images/Admin_left_1.gif" id=menuTitle1 onClick="showsubmenu(7)" style="cursor:hand;"><span>内容添加</span></td>
+      </tr>
+      <tr>
+        <td class="sec_menu" id='submenu7' style="display:block"><div class=sec_menu style="width:180px">
+          <table cellpadding=0 cellspacing=0 align=center width=0>
+              <tr>
+                <td width="20" height=30 align="center" valign="middle"><a href="#"><img src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td width="116" align="left" valign="middle">发站内短消息<%#= link_to "发站内短消息",new_admin_letter_path %></td>
+              </tr>
+              <tr>
+                <td height=30 align="center" valign="middle"><a href="#"><img src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td align="left" valign="middle">发站内短消息<%#= link_to "管理站内短消息",admin_letters_path %></td>
+              </tr>
+              <tr>
+                <td height=30 align="center" valign="middle"><a href="#"><img src="/images/admin/admin_l_icon.gif" width="6" height="6" /></a></td>
+                <td align="left" valign="middle"><a href="<%#= admin_letter_idioms_path %>">固定短语管理</a></td>
+              </tr>
+            </table>
+        </div></td>
+      </tr>
+    </table>
+  
+ 
+    </td>
+    </tr>
+</table>
