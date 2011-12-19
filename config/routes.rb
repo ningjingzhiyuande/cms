@@ -1,6 +1,10 @@
 Cms::Application.routes.draw do
   
 
+ 
+
+
+
   #get "home/index"
 
   devise_for :users   do
@@ -13,7 +17,8 @@ Cms::Application.routes.draw do
   resource :home  
   
   namespace :admin do 
-    resources :users
+    resources :users    
+    resources :items
     resources :categories 
   end
   root  :to=>"home#index"  

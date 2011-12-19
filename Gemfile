@@ -7,7 +7,15 @@ gem 'rails', '3.0.11'
 gem 'devise'
 # acts_as_tree for category
 gem 'ancestry'      
+    
+gem 'ckeditor'
+ 
+gem 'paperclip'        
 
+gem 'simple_form', :git => "git://github.com/plataformatec/simple_form.git"
+gem 'bootstrap-rails', :require => 'bootstrap-rails', :git => 'git://github.com/xdite/bootstrap-rails.git'
+
+#gem 'carrierwave'    # this is have cloud 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

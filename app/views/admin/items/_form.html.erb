@@ -1,0 +1,23 @@
+<%= form_for([:admin,@item]) do |f| %>
+  <% if @item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@item.errors.count, "error") %> prohibited this item from being saved:</h2>
+
+      <ul>
+      <% @item.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+   <div><%= f.label :title %>
+  <%= f.text_field :title %></div>
+   <div><%= f.label :category %>
+  <%= f.select :category_id,Category.all.map{|c|[c.name,c.id]} %></div>
+  <div><%= f.label :content %>
+  <%= f.cktext_area :content, :toolbar => 'Full', :width => 800, :height => 400  %></div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

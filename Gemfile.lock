@@ -1,3 +1,19 @@
+GIT
+  remote: git://github.com/plataformatec/simple_form.git
+  revision: 031e3324ca66c616f8aa0348164e26abb917b1b2
+  specs:
+    simple_form (2.0.0.dev)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
+
+GIT
+  remote: git://github.com/xdite/bootstrap-rails.git
+  revision: 7fe2d48ef0b01de7b16aa927465d83c768e3769e
+  specs:
+    bootstrap-rails (0.1.4)
+      railties (~> 3.0)
+      thor (~> 0.14)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -34,6 +50,10 @@ GEM
     arel (2.0.10)
     bcrypt-ruby (3.0.1)
     builder (2.1.2)
+    ckeditor (3.6.3)
+      mime-types (~> 1.16)
+      orm_adapter (~> 0.0.5)
+    cocaine (0.2.0)
     columnize (0.3.5)
     devise (1.5.1)
       bcrypt-ruby (~> 3.0)
@@ -54,6 +74,11 @@ GEM
     mysql2 (0.2.17)
     newrelic_rpm (3.3.0)
     orm_adapter (0.0.5)
+    paperclip (2.4.5)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
     polyglot (0.3.3)
     rack (1.2.4)
     rack-mount (0.6.14)
@@ -100,8 +125,12 @@ PLATFORMS
 
 DEPENDENCIES
   ancestry
+  bootstrap-rails!
+  ckeditor
   devise
   mysql2 (~> 0.2.17)
   newrelic_rpm
+  paperclip
   rails (= 3.0.11)
   ruby-debug19
+  simple_form!
